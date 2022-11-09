@@ -1,0 +1,8 @@
+E:\harifolder\learning\.net course\C#\project2\project2\bin\Debug\project2.exe.config
+E:\harifolder\learning\.net course\C#\project2\project2\bin\Debug\project2.exe
+E:\harifolder\learning\.net course\C#\project2\project2\bin\Debug\project2.pdb
+E:\harifolder\learning\.net course\C#\project2\project2\obj\Debug\project2.csproj.AssemblyReference.cache
+E:\harifolder\learning\.net course\C#\project2\project2\obj\Debug\project2.csproj.SuggestedBindingRedirects.cache
+E:\harifolder\learning\.net course\C#\project2\project2\obj\Debug\project2.csproj.CoreCompileInputs.cache
+E:\harifolder\learning\.net course\C#\project2\project2\obj\Debug\project2.exe
+E:\harifolder\learning\.net course\C#\project2\project2\obj\Debug\project2.pdb
