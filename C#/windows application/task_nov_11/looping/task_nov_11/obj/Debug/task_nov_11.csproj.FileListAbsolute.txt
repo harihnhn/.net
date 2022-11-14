@@ -1,0 +1,14 @@
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\bin\Debug\task_nov_11.exe.config
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\bin\Debug\task_nov_11.exe
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\bin\Debug\task_nov_11.pdb
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.csproj.AssemblyReference.cache
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.csproj.SuggestedBindingRedirects.cache
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.Form1.resources
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.Properties.Resources.resources
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.task1.resources
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.task2.resources
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.task3.resources
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.csproj.GenerateResource.cache
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.csproj.CoreCompileInputs.cache
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.exe
+E:\harifolder\learning\.net\C#\windows application\looping\task_nov_11\obj\Debug\task_nov_11.pdb

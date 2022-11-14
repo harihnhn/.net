@@ -1,0 +1,12 @@
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\bin\Debug\class_nov_11_project.exe.config
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\bin\Debug\class_nov_11_project.exe
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\bin\Debug\class_nov_11_project.pdb
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.csproj.AssemblyReference.cache
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.csproj.SuggestedBindingRedirects.cache
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.Form1.resources
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.Form2.resources
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.Properties.Resources.resources
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.csproj.GenerateResource.cache
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.csproj.CoreCompileInputs.cache
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.exe
+E:\harifolder\learning\.net\C#\windows application\class_nov_11\class_nov_11_solution\class_nov_11_project\obj\Debug\class_nov_11_project.pdb
