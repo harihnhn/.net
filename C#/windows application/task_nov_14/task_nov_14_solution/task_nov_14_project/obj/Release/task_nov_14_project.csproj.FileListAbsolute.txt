@@ -1,0 +1,14 @@
+E:\hariharan\task_nov_14_solution\task_nov_14_project\bin\Release\task_nov_14_project.exe.config
+E:\hariharan\task_nov_14_solution\task_nov_14_project\bin\Release\task_nov_14_project.exe
+E:\hariharan\task_nov_14_solution\task_nov_14_project\bin\Release\task_nov_14_project.pdb
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.csproj.AssemblyReference.cache
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.csproj.SuggestedBindingRedirects.cache
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.Form1.resources
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.Form2.resources
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.Form3.resources
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.Form4.resources
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.Properties.Resources.resources
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.csproj.GenerateResource.cache
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.csproj.CoreCompileInputs.cache
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.exe
+E:\hariharan\task_nov_14_solution\task_nov_14_project\obj\Release\task_nov_14_project.pdb
