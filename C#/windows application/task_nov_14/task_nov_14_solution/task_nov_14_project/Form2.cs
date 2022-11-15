@@ -20,6 +20,7 @@ namespace task_nov_14_project
         private void button1_Click(object sender, EventArgs e)
         {
             int n = int.Parse(richTextBox1.Text), i;
+            richTextBox1.Clear();
             richTextBox2.Clear();
             for(i=1; i<=n; i++)
             {
