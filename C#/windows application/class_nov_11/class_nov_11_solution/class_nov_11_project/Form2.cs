@@ -19,16 +19,15 @@ namespace class_nov_11_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int m1, m2, m3, tot=0, avg;
+            int m1, m2, m3, avg;
             string sname = textBox1.Text;
             m1 = int.Parse(textBox2.Text);
-            m2 = int.Parse(textBox2.Text);
-            m3 = int.Parse(textBox3.Text);
+            m2 = int.Parse(textBox3.Text);
+            m3 = int.Parse(textBox4.Text);
             //m2 = Convert.ToInt32(textBox2.Text);
             //m3 = Convert.ToInt32(textBox3.Text);
-
-            tot = m1 + m2 + m3;
-            //MessageBox.Show(tot);
+            int tot = m1 + m2 + m3;
+            MessageBox.Show(tot.ToString());
             avg = tot / 3;
 
             if (avg >= 90)

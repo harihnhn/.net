@@ -1,0 +1,8 @@
+E:\hariharan\.net\C#\console application\array_solution\array_project\bin\Debug\array_project.exe.config
+E:\hariharan\.net\C#\console application\array_solution\array_project\bin\Debug\array_project.exe
+E:\hariharan\.net\C#\console application\array_solution\array_project\bin\Debug\array_project.pdb
+E:\hariharan\.net\C#\console application\array_solution\array_project\obj\Debug\array_project.csproj.AssemblyReference.cache
+E:\hariharan\.net\C#\console application\array_solution\array_project\obj\Debug\array_project.csproj.SuggestedBindingRedirects.cache
+E:\hariharan\.net\C#\console application\array_solution\array_project\obj\Debug\array_project.csproj.CoreCompileInputs.cache
+E:\hariharan\.net\C#\console application\array_solution\array_project\obj\Debug\array_project.exe
+E:\hariharan\.net\C#\console application\array_solution\array_project\obj\Debug\array_project.pdb

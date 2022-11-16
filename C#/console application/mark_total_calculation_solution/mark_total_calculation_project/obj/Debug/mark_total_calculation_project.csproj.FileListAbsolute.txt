@@ -1,0 +1,8 @@
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\bin\Debug\mark_total_calculation_project.exe.config
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\bin\Debug\mark_total_calculation_project.exe
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\bin\Debug\mark_total_calculation_project.pdb
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\obj\Debug\mark_total_calculation_project.csproj.AssemblyReference.cache
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\obj\Debug\mark_total_calculation_project.csproj.SuggestedBindingRedirects.cache
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\obj\Debug\mark_total_calculation_project.csproj.CoreCompileInputs.cache
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\obj\Debug\mark_total_calculation_project.exe
+E:\hariharan\.net\C#\console application\mark_total_calculation_solution\mark_total_calculation_project\obj\Debug\mark_total_calculation_project.pdb

@@ -1,0 +1,8 @@
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\bin\Release\switch_case_project.exe.config
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\bin\Release\switch_case_project.exe
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\bin\Release\switch_case_project.pdb
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\obj\Release\switch_case_project.csproj.AssemblyReference.cache
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\obj\Release\switch_case_project.csproj.SuggestedBindingRedirects.cache
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\obj\Release\switch_case_project.csproj.CoreCompileInputs.cache
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\obj\Release\switch_case_project.exe
+E:\hariharan\.net\C#\console application\switch_case_solution\switch_case_project\obj\Release\switch_case_project.pdb
