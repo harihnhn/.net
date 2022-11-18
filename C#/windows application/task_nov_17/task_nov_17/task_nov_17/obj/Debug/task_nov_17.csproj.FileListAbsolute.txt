@@ -1,0 +1,11 @@
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\bin\Debug\task_nov_17.exe.config
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\bin\Debug\task_nov_17.exe
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\bin\Debug\task_nov_17.pdb
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.csproj.AssemblyReference.cache
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.csproj.SuggestedBindingRedirects.cache
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.Form1.resources
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.Properties.Resources.resources
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.csproj.GenerateResource.cache
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.csproj.CoreCompileInputs.cache
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.exe
+E:\hariharan\.net\C#\windows application\task_nov_17\task_nov_17\task_nov_17\obj\Debug\task_nov_17.pdb

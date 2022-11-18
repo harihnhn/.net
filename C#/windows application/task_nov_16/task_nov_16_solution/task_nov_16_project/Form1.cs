@@ -89,6 +89,7 @@ namespace task_nov_16_project
 
             for (int i = 0; i < arr.Length; i++)                  
                 sum = sum + arr[i];
+
             avg = sum/ arr.Length;
 
             listBox1.Items.Add(avg);
@@ -136,6 +137,7 @@ namespace task_nov_16_project
             arr[3] = Convert.ToInt32(textBox4.Text);
             arr[4] = int.Parse(textBox5.Text);
 
+            //bubble sort
             do
             {
                 flag = false;
@@ -152,6 +154,7 @@ namespace task_nov_16_project
             }
             while(flag);
 
+            //to print output
             for(i = 0; i<arr.Length; i++)
                 listBox1.Items.Add(arr[i]);             
         }
@@ -188,6 +191,10 @@ namespace task_nov_16_project
 
             for (i = 0; i < arr.Length; i++)
                 listBox1.Items.Add(arr[i]);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
