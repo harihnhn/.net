@@ -1,0 +1,11 @@
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\bin\Debug\class_object_student_result_calc_p.exe.config
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\bin\Debug\class_object_student_result_calc_p.exe
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\bin\Debug\class_object_student_result_calc_p.pdb
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.csproj.AssemblyReference.cache
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.csproj.SuggestedBindingRedirects.cache
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.Form1.resources
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.Properties.Resources.resources
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.csproj.GenerateResource.cache
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.csproj.CoreCompileInputs.cache
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.exe
+E:\hariharan\.net\C#\windows application\OOPS\class_object_student_result_calc_s\class_object_student_result_calc_p\obj\Debug\class_object_student_result_calc_p.pdb
