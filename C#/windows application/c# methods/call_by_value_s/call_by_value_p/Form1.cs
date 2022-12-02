@@ -26,7 +26,7 @@ namespace call_by_value_p
         {
             int a, b;
             a = int.Parse(textBox1.Text);
-            b = int.Parse(textBox2.Text);
+            b = int.Parse(textBox2.Text);            
             Add(a, b);  
         }
 
