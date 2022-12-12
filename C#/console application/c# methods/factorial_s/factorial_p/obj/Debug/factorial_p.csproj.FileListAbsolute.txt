@@ -1,8 +1,0 @@
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\bin\Debug\factorial_p.exe.config
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\bin\Debug\factorial_p.exe
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\bin\Debug\factorial_p.pdb
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\obj\Debug\factorial_p.csproj.AssemblyReference.cache
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\obj\Debug\factorial_p.csproj.SuggestedBindingRedirects.cache
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\obj\Debug\factorial_p.csproj.CoreCompileInputs.cache
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\obj\Debug\factorial_p.exe
-E:\hariharan\.net\C#\console application\c# methods\factorial_s\factorial_p\obj\Debug\factorial_p.pdb
