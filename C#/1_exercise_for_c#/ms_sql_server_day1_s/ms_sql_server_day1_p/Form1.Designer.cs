@@ -1,5 +1,5 @@
 ﻿
-namespace types_of_class_p
+namespace ms_sql_server_day1_p
 {
     partial class Form1
     {
@@ -29,18 +29,10 @@ namespace types_of_class_p
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(725, 450);
-            this.Name = "Form1";
-            this.Text = "tab1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
         }
 
         #endregion

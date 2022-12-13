@@ -30,12 +30,12 @@ namespace types_of_class_p
             #endregion
 
             #region 3. partial class
-            //class31 obj3 = new class31();
-            //obj3.method311();
-            //obj3.method312();
+            class31 obj3 = new class31();
+            obj3.method311();
+            obj3.method312();
 
-            //class32 obj32 = new class32();
-            //obj32.method32();
+            class32 obj32 = new class32();
+            obj32.method32();
             #endregion
 
             #region 4. nested class
@@ -121,32 +121,32 @@ namespace types_of_class_p
 
     #region 3. partial class
     //using  partial key word we can specify multiple classes at same classname
-    partial class class31
-    {
-        public int n11 = 10, n12 = 2;
-        public void method311()
-        {
-            MessageBox.Show((n11 + n12).ToString());
-        }
-    }
+    // partial class class31
+    // {
+    //     public int n11 = 10, n12 = 2;
+    //     public void method311()
+    //     {
+    //         MessageBox.Show((n11 + n12).ToString());
+    //     }
+    // }
 
-    partial class class31
-    {
-        public int n21 = 10, n22 = 2;
-        public void method312()
-        {
-            MessageBox.Show((n21 * n22).ToString());
-        }
-    }
+    // partial class class31
+    // {
+    //     public int n21 = 10, n22 = 2;
+    //     public void method312()
+    //     {
+    //         MessageBox.Show((n21 * n22).ToString());
+    //     }
+    // }
 
-    class class32 : class31
-    {
-        public void method32()
-        {
-            method311();
-            method312();
-        }
-    }
+    // class class32 : class31
+    // {
+    //     public void method32()
+    //     {
+    //         method311();
+    //         method312();
+    //     }
+    // }
     #endregion
 
     #region 4. nested class
@@ -219,4 +219,3 @@ namespace types_of_class_p
     }
     #endregion
 }
-
