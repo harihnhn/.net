@@ -1,5 +1,4 @@
 create database dotnetsql	--to create new database
-
 use dotnetsql	--to use the created database
 
 create table employee(eid int, ename varchar(30), edesignation varchar(20), salary money)	--to create new table in the current selected database
@@ -24,3 +23,5 @@ select ename +'--'+ edesignation as string_concadination from employee
 
 select * from employee where ename = 'hari'
 select * from employee where salary > 25000
+
+DROP DATABASE dotnetsql --to delete the database

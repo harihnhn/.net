@@ -1,13 +1,12 @@
-create database MS_sql_commands
-use MS_sql_commands
-create table sql_commands(Slno int identity(1, 1), syntax varchar(100), description_ varchar(8000))
-sp_help sql_commands
+create database MS_sql_commands --create database
+use MS_sql_commands --use database
+create table sql_commands(Slno int identity(1, 1), syntax varchar(100), description_ varchar(8000)) --create table
+sp_help sql_commands	--to see table structure
 alter table sql_commands add example varchar(1000)
 insert into sql_commands values('create database <database_name>', 'To create new database', 'create database MS_sql_commands')
-select * from sql_commands
+select * from sql_command
 
 insert into sql_commands values('use <database_name>', 'To use the created database name', 'use MS_sql_commands')
-
 
 alter table sql_commands alter column syntax varchar(1000)	--update data type of a field
 
