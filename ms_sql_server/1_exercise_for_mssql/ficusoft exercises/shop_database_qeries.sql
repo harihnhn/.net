@@ -109,6 +109,7 @@ alter table sales alter column cid varchar
 
 
 --distinct
+--it shows output without douplicate value
 select distinct(purchase_item) from sales
 select count(distinct(purchase_item)) from sales
 
