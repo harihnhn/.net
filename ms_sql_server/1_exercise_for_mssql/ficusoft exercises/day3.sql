@@ -1,85 +1,3 @@
---create database
-create database shop
-
-use shop
-
-create table sales(cid int identity, cname varchar(100), purchase_item varchar(1000), price money)
-
-sp_help sales
-
-insert into sales values('hari', 'tv', 100000)
-insert into sales values('haran', 'tv', 75000), ('hariharan', 'tv', 90000), ('anbu', 'tv', 80000), ('arun', 'tv', 70000), ('arunkumar', 'tv', 60000),
-('sneha', 'tv', 50000), ('jagan', 'tv', 30000)
-
-insert into sales values('haran', 'ac', 75000), ('hariharan', 'tv', 90000), ('anbu', 'ac', 80000), ('arun', 'ac', 70000), ('arunkumar', 'ac', 60000),
-('sneha', 'ac', 50000), ('jagan', 'ac', 30000)
-
-insert into sales values('haran', 'fridge', 15000), ('hariharan', 'fridge', 10000), ('anbu', 'fridge', 20000), ('arun', 'fridge', 30000), ('arunkumar', 'fridge', 40000),
-('sneha', 'fridge', 50000), ('jagan', 'fridge', 90000)
-
-update sales set purchase_item='ac' where cid=10 --update record data
-
-select * from sales where purchase_item='tv'
-select * from sales where purchase_item='ac' and price>=75000
-select * , (price/100)*10 from sales
-select * , (price/100)*10 as discount from sales
-
-SP_HELP --TO VIEW DATABASE DETAILS
-
---day 2
---where (and, or, not, in, between)
-select * from sales where purchase_item in ('tv') and price in (100000)
---aggregate function
---avg()
---max()
---min()
---count()
---sum()
-select max(price) from sales
-
-CREATE table sample1(d1 int, d2 int)
-insert into sample1 values(1,2)
-select * from sample1
-truncate table sample1 --delete all records in the table
-drop table sample1	--delete the whole table
-
---task for 14-12-2022
---1
-alter table sales add city varchar(100)
-update sales set city ='chennai' where cid<=5
-update sales set city ='madurai' where cid>5 and cid<=10
-update sales set city ='tiruchi' where cid between 11 and 15
-update sales set city = 'covai' where not cid<=15 or cid>20 --doubt wrong output
-
---2
-exec sp_rename 'sales.city', 'location', 'column' --to change field name
-
---3
-select * from sales where purchase_item in('fridge', 'washing_mechine', 'ac')
-select * from sales where purchase_item in('fridge', 'washing_mechine', 'ac') order by cname asc
-
---4
-select * from sales where price between 75000 and 100000 order by price asc
-
---5
-select * from sales where cname like('a%') order by cname asc
-select * from sales where cname like('_a%') order by cname asc
-select * from sales where cname like('__r%') order by cname asc
-select * from sales where cname like('%n') order by cname asc
-select * from sales where cname like('%r__') order by cname asc
-
---6
-select max(price) from sales where purchase_item = 'ac'
-select max(price) as max_of_price, purchase_item from sales group by purchase_item having purchase_item = 'ac'
-
---7
-select avg(price) as avg_of_price, purchase_item from sales group by purchase_item having purchase_item = 'ac'
-
---8
-select sum(price) as chennai_sales from sales where location='chennai'
-select sum(price) as chennai_sales, location from sales group by location having location='chennai'
-
----------------------------------------------------------------------
 --day3
 --group by clause
 select count(cid) as no_of_customers, purchase_item from sales group by purchase_item
@@ -121,9 +39,11 @@ select cid, upper(cname), upper(purchase_item), price, upper(location) from sale
 --to get length of string
 select len(cname), cname from sales
 select * from sales where len(cname)<=4
+
 --replace
-select replace('HELLO', 'll', 'xx')
-select * , replace(purchase_item, 'tv', 'TV') FROM sales --rename how it works doubt
+select replace('HELLO hello', 'llo', 'xx')
+select replace(purchase_item, 'tv', 'TV') FROM sales --rename how it works doubt
+
 --replicate
 select replicate('hello ', 3)
 --substring

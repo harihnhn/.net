@@ -1,27 +1,27 @@
-create database dotnetsql	--to create new database
-use dotnetsql	--to use the created database
+--create database
+create database shop
 
-create table employee(eid int, ename varchar(30), edesignation varchar(20), salary money)	--to create new table in the current selected database
+use shop
 
-sp_help employee	--to view table structure
+create table sales(cid int identity, cname varchar(100), purchase_item varchar(1000), price money)
 
-select * from employee	--to view table data(fields(column) and records(row))
+sp_help sales
 
-insert into employee values(101, 'hari', '.Net developer', 25000) --to insert vlaue(single row) to the table
-select * from employee
+insert into sales values('hari', 'tv', 100000)
+insert into sales values('haran', 'tv', 75000), ('hariharan', 'tv', 90000), ('anbu', 'tv', 80000), ('arun', 'tv', 70000), ('arunkumar', 'tv', 60000),
+('sneha', 'tv', 50000), ('jagan', 'tv', 30000)
 
-insert into employee values(102, 'haran', 'Web developer', 30000),	--to insert vlaue(insert multiple rows of data in one line) to the table
-(103, 'narah', 'Front end developer', 20000),
-(104, 'irah', 'Back end developer', 40000),
-(105, 'hariharan', 'Full stack developer', 50000)
-select * from employee
+insert into sales values('haran', 'ac', 75000), ('hariharan', 'tv', 90000), ('anbu', 'ac', 80000), ('arun', 'ac', 70000), ('arunkumar', 'ac', 60000),
+('sneha', 'ac', 50000), ('jagan', 'ac', 30000)
 
-select eid, ename from employee --to view particular field of data in the table
+insert into sales values('haran', 'fridge', 15000), ('hariharan', 'fridge', 10000), ('anbu', 'fridge', 20000), ('arun', 'fridge', 30000), ('arunkumar', 'fridge', 40000),
+('sneha', 'fridge', 50000), ('jagan', 'fridge', 90000)
 
-select eid, ename, (salary/100)*10 as allowance from employee --to view data with some calculations
-select ename +'--'+ edesignation as string_concadination from employee
+update sales set purchase_item='ac' where cid=10 --update record data
 
-select * from employee where ename = 'hari'
-select * from employee where salary > 25000
+select * from sales where purchase_item='tv'
+select * from sales where purchase_item='ac' and price>=75000
+select * , (price/100)*10 from sales
+select * , (price/100)*10 as discount from sales
 
-DROP DATABASE dotnetsql --to delete the database
+SP_HELP --TO VIEW DATABASE DETAILS
