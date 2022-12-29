@@ -38,7 +38,7 @@ rollback tran t2
 --not null(it does not allow null values)
 --check(to satisfy certain condition)
 --default(we can set default value)
---uniue (it does not allow douplicate value, it only one time allow null value)
+--unique (it does not allow douplicate value, it only one time allow null value)
 --primary key(it does not allow douplicate value and null value)
 --foreign key (one table foreign key is reference to another table primary key value)
 
@@ -77,4 +77,12 @@ insert into table1 values('hariharan')
 insert into table1 values(null)
 select * from table1
 alter table sales add uni2 int unique --why i can't put unique constraints on alter section
-alter table sales alter column cname varchar(1000) unique --why i can't put unique constraints on alter section
+alter table sales alter column cname varchar(1000) unique -----------------------doubt((why i can't put unique constraints on alter section))
+
+
+--we can't alter a contrainted column, if we want to alter that column we should first drop the constraint of that column
+--1. to delete constraint in a column
+alter table sales drop constraint [CK__sales__id1__48CFD27E] --[CK__sales__id1__48CFD27E] you can take this from (delete error msg), when you try to drop that column you can't then it shows a error msg 
+----------------doubt((what is this code in above line what does it mean)
+
+--2. 
