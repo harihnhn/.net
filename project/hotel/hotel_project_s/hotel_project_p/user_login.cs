@@ -13,6 +13,7 @@ namespace hotel_project_p
 {
     public partial class user_login : Form
     {
+        public static int uid = 10;
         public user_login()
         {
             InitializeComponent();
@@ -21,6 +22,7 @@ namespace hotel_project_p
         private void button2_Click(object sender, EventArgs e)
         {
             user_registratrion ur = new user_registratrion();
+            this.Hide();
             ur.Show();
         }
 
@@ -40,7 +42,10 @@ namespace hotel_project_p
             {
                 if (dr["upswd"].ToString() == pswd)
                 {
-                    food_menu fm = new food_menu();
+                    uid = Convert.ToInt32(dr["uid"]);
+                    //user_id obj = new user_id(int.Parse(dr["uid"].ToString()));
+                    Food_menu fm = new Food_menu();
+                    this.Hide();
                     fm.Show();
                 }
                 else
@@ -51,6 +56,24 @@ namespace hotel_project_p
             
             
             con.Close();
+        }
+
+        private void user_login_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            welcome_page wp = new welcome_page();
+            wp.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            welcome_page w = new welcome_page();
+            this.Hide();
+            w.Show();
         }
     }
 }

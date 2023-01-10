@@ -44,8 +44,8 @@ namespace hotel_project_p
                     SqlCommand cmd = new SqlCommand("insert into admininfo values('" + aname + "', '" + aemail + "', '" + apass + "', " + amob_no + ")", con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Registered successfully");
-                    user_login ul = new user_login();
-                    ul.Show();
+                    admin_login al = new admin_login();
+                    al.Show();
                 }
                 catch (Exception ex)
                 {
@@ -53,6 +53,18 @@ namespace hotel_project_p
                 }
                 con.Close();
             }
+        }
+
+        private void admin_registration_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            admin_login al = new admin_login();
+            this.Hide();
+            al.Show();
         }
     }
 }

@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>hotel_project_p</RootNamespace>
     <AssemblyName>hotel_project_p</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="about.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="about.Designer.cs">
-      <DependentUpon>about.cs</DependentUpon>
-    </Compile>
     <Compile Include="admin_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,23 +58,33 @@
     <Compile Include="admin_registration.Designer.cs">
       <DependentUpon>admin_registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="contact.cs">
+    <Compile Include="food_list.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="contact.Designer.cs">
-      <DependentUpon>contact.cs</DependentUpon>
+    <Compile Include="food_list.Designer.cs">
+      <DependentUpon>food_list.cs</DependentUpon>
     </Compile>
-    <Compile Include="food_menu.cs">
+    <Compile Include="Food_menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="food_menu.Designer.cs">
-      <DependentUpon>food_menu.cs</DependentUpon>
+    <Compile Include="Food_menu.Designer.cs">
+      <DependentUpon>Food_menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="home.cs">
+    <Compile Include="hotelDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hotelDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hotelDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sales_record.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="home.Designer.cs">
-      <DependentUpon>home.cs</DependentUpon>
+    <Compile Include="sales_record.Designer.cs">
+      <DependentUpon>sales_record.cs</DependentUpon>
     </Compile>
     <Compile Include="user_login.cs">
       <SubType>Form</SubType>
@@ -92,6 +97,18 @@
     </Compile>
     <Compile Include="user_registratrion.Designer.cs">
       <DependentUpon>user_registratrion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_sales_record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_sales_record.Designer.cs">
+      <DependentUpon>user_sales_record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_table.Designer.cs">
+      <DependentUpon>user_table.cs</DependentUpon>
     </Compile>
     <Compile Include="welcome_page.cs">
       <SubType>Form</SubType>
@@ -107,14 +124,26 @@
     <EmbeddedResource Include="admin_registration.resx">
       <DependentUpon>admin_registration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="contact.resx">
-      <DependentUpon>contact.cs</DependentUpon>
+    <EmbeddedResource Include="food_list.resx">
+      <DependentUpon>food_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food_menu.resx">
+      <DependentUpon>Food_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sales_record.resx">
+      <DependentUpon>sales_record.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="user_login.resx">
       <DependentUpon>user_login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="user_registratrion.resx">
       <DependentUpon>user_registratrion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_sales_record.resx">
+      <DependentUpon>user_sales_record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_table.resx">
+      <DependentUpon>user_table.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="welcome_page.resx">
       <DependentUpon>welcome_page.cs</DependentUpon>
@@ -127,7 +156,30 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="hotelDataSet.xsc">
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hotelDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hotelDataSet.xss">
+      <DependentUpon>hotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet1.xsc">
+      <DependentUpon>hotelDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="hotelDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hotelDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="hotelDataSet1.xss">
+      <DependentUpon>hotelDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

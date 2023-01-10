@@ -42,10 +42,11 @@ namespace hotel_project_p
                 con.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("insert into userinfo values('" + uname + "', '" + uemail + "', '" + upass + "', " + umob_no + ")", con);
+                    SqlCommand cmd = new SqlCommand("insert into userinfo(uname, uemail, upswd, umobileno) values('" + uname + "', '" + uemail + "', '" + upass + "', " + umob_no + ")", con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Registered successfully");
                     user_login ul = new user_login();
+                    this.Hide();
                     ul.Show();
                 }
                 catch(Exception ex)
@@ -53,7 +54,19 @@ namespace hotel_project_p
                     MessageBox.Show(ex.Message);
                 }
                 con.Close();                
-            }            
+            }
+        }
+
+        private void user_registratrion_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            user_login ul = new user_login();
+            this.Hide();
+            ul.Show();
         }
     }
 }

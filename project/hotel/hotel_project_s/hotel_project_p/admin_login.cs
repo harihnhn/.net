@@ -21,6 +21,7 @@ namespace hotel_project_p
         private void button2_Click(object sender, EventArgs e)
         {
             admin_registration ar = new admin_registration();
+            this.Hide();
             ar.Show();
         }
 
@@ -33,14 +34,15 @@ namespace hotel_project_p
             pswd = textBox2.Text;
             
             con.Open();
-            SqlCommand cmd = new SqlCommand("select * from admininfo where uemail = '" + email + "'", con);
+            SqlCommand cmd = new SqlCommand("select * from admininfo where aemail = '" + email + "'", con);
             SqlDataReader dr = cmd.ExecuteReader();
 
             if (dr.Read())
             {
                 if (dr["apswd"].ToString() == pswd)
                 {
-                    food_menu fm = new food_menu();
+                    food_list fm = new food_list();
+                    this.Hide();
                     fm.Show();
                 }
                 else
@@ -49,6 +51,18 @@ namespace hotel_project_p
             else
                 MessageBox.Show("Wrong mail id");
             con.Close();
+        }
+
+        private void admin_login_Load(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            welcome_page wp = new welcome_page();
+            this.Hide();
+            wp.Show();
         }
     }
 }
