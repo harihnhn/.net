@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(3, 22, 37);
+    color: white;
+}
+
+.heading1, .heading2{
+    text-align: center;    
+}
+
+div{
+    background-color: rgb(4, 45, 46);
+    color: white;
+    width: 40%;
+    padding: 3%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+input, button{
+    width: 100%;
+    height: 8%;
+    padding: 2%; 
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: black;
+    color: white;    
+    font-size: larger;
+    border: none;    
+}
+
+.heading2, .heading1{
+    margin: 0;
+}
+
+a{
+    color: rgb(87, 195, 238);
+}
