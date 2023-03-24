@@ -16,10 +16,5 @@ namespace project_hotel
         {
             
         }
-
-        public void sign_up()
-        {
-            int a = 10;
-        }
     }
 }

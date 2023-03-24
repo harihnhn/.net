@@ -16,5 +16,10 @@ namespace visitor_management_system_p
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

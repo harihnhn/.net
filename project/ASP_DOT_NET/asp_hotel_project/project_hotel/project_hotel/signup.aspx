@@ -9,7 +9,7 @@
 </head>
 <body>
         <span class="heading1">
-            <h1>USER REGISTRATION</h1>
+            <h1>USER REGISTRATION</h1> 
             <p><small>Please fill in the details to create an account with us.</small></p>
         </span>
         
